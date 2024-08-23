@@ -8,7 +8,7 @@ from cryptography.fernet import Fernet
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv('C:/Users/sanil/Desktop/Automate-backup-/path.env')
+load_dotenv()
 
 # Retrieve environment variables
 SOURCE_DIR = os.getenv('SOURCE_DIR')
